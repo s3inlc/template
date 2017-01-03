@@ -40,6 +40,13 @@ Other templates can be included (Template name WITHOUT the extension .template.h
 {%TEMPLATE->path/to/template%}
 ```
 
+## Function calls
 
+Functions can be called on objects or static calls and can also be nested with variables/function calls:
+
+```
+[[object->getMyName()]]
+[[Util::getUsernameForId([[userId]])]]
+```
 
 
