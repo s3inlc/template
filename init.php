@@ -7,3 +7,6 @@
  */
 
 namespace Templating;
+
+$OBJECTS = array();
+$OBJECTS['TEMPLATE_VERSION'] = "1.0.0";
