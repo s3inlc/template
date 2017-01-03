@@ -8,5 +8,7 @@
 
 namespace Templating;
 
+define("TEMPLATES_PATH", dirname(__FILE__)."/examples");
+
 $OBJECTS = array();
 $OBJECTS['TEMPLATE_VERSION'] = "1.0.0";
