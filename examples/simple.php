@@ -7,7 +7,7 @@
  * Time: 16:08
  */
 
-require_once(dirname(__FILE__)."/init.php");
+require_once(dirname(__FILE__) . "/../init.php");
 
 $TEMPLATE = new Templating\Template("simple");
 
