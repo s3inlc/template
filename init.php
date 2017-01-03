@@ -6,7 +6,7 @@
  * Time: 15:52
  */
 
-namespace Templating;
+namespace Template;
 
 define("TEMPLATES_PATH", dirname(__FILE__)."/exampleTemplates");
 $entries = scandir(dirname(__FILE__));

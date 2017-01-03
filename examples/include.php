@@ -9,7 +9,7 @@
 
 require_once(dirname(__FILE__) . "/../init.php");
 
-$TEMPLATE = new Templating\Template("include/index");
+$TEMPLATE = new Template\Template("include/index");
 
 $OBJECTS['values'] = array("Book", "Car", "Child", "Bus");
 

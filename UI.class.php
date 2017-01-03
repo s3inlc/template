@@ -7,7 +7,7 @@
  * Time: 14:46
  */
 
-namespace Templating;
+namespace Template;
 
 class UI {
   public static function printError($level, $message) {

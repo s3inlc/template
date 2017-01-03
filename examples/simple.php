@@ -9,7 +9,7 @@
 
 require_once(dirname(__FILE__) . "/../init.php");
 
-$TEMPLATE = new Templating\Template("simple");
+$TEMPLATE = new Template\Template("simple");
 
 $OBJECTS['user'] = "Testuser";
 

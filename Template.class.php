@@ -7,7 +7,7 @@
  * Time: 21:56
  */
 
-namespace Templating;
+namespace Template;
 
 class Template {
   /**
