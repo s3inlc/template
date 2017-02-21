@@ -7,8 +7,6 @@
  * Time: 21:38
  */
 
-namespace Template;
-
 class DataSet {
   private $values;
   
