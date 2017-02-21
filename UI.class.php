@@ -7,8 +7,6 @@
  * Time: 14:46
  */
 
-namespace Template;
-
 class UI {
   public static function printError($level, $message) {
     $OBJECTS = array();
