@@ -9,7 +9,7 @@
 
 require_once(dirname(__FILE__) . "/../init.php");
 
-$TEMPLATE = new Template\Template("loops");
+$TEMPLATE = new Template("loops");
 
 $OBJECTS['list'] = array("Book", "Car", "Child", "Bus");
 $OBJECTS['counts'] = 10;
