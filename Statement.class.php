@@ -21,6 +21,7 @@ class Statement {
   }
   
   public function render($objects){
+    /** @var $LANG Lang */
     global $LANG;
     
     $output = "";
